@@ -1,0 +1,11 @@
+[user]
+	email = jorgetaylor@protonmail.com
+	name = Jorge Taylor
+[init]
+	defaultBranch = main
+[push]
+	default = simple
+[color]
+	ui = auto
+[core]
+	editor = vim

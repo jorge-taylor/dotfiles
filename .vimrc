@@ -48,6 +48,9 @@ set noerrorbells visualbell t_vb=
 " sometimes be convenient.
 set mouse+=a
 
+" Set encoding for YouCompleteMe support
+set encoding=utf-8
+
 " Echo to try to prevent bad habits
 " Do this in normal mode...
 nnoremap <Left>  :echoe "Use h"<CR>
@@ -62,3 +65,12 @@ inoremap <Down>  <ESC>:echoe "Use j"<CR>
 
 " Fix tmux font color settings!
 set background=dark
+
+" Change <Leader> key to only require 1 press to start easy motion
+map <Leader> <Plug>(easymotion-prefix)
+
+" Create keybinding to open NERDTree
+nnoremap <C-n> :NERDTreeToggle<CR>
+
+" Set vim-airline-theme
+let g:airline_theme='base16'

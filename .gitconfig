@@ -1,5 +1,6 @@
 [user]
 	name = Jorge Taylor
+	email = "jorgetaylor@protonmail.com"
 [init]
 	defaultBranch = main
 [push]

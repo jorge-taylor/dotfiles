@@ -135,6 +135,8 @@ alias sl=ls
 alias mv="mv -i"
 alias mkdir="mkdir -p"
 alias df="df -h"
+alias v="vim"
+alias :wq="exit"
 
 # Alias for setting up path for 3d computer graphics
 alias setup3d="export PATH=/home/jorge/jogl24/lib:$PATH; export CLASSPATH=.:/home/jorge/jogl24/jar/jogl-all.jar:/home/jorge/jogl24/jar/gluegen-rt.jar:$CLASSPATH"
@@ -166,3 +168,7 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+# Add colors to Terminal
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad

@@ -144,15 +144,8 @@ alias setup3d="export PATH=/home/jorge/jogl24/lib:$PATH; export CLASSPATH=.:/hom
 # alias for setting up dotfiles using a bare git repo
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
-# Getting rbenv path to work for zsh
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init - zsh)"
-export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-eval $(thefuck --alias)
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
